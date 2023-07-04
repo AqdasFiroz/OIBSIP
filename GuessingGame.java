@@ -12,14 +12,7 @@ public class GuessingGame {
         int Max_Attempts = 10;
 
        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Please enter your name:");
-//        String user = scanner.nextLine();
-//
-//        while (user.length() == 0) {
-//            System.out.println("Please enter your name:");
-//            user = scanner.nextLine();
-//        };
-//
+
       System.out.println("Hello ! Welcome to the guessing game."); //welcome message
 
         for (int i = 1; i <= Max_Attempts; i++) {
